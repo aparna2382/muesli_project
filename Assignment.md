@@ -17,7 +17,7 @@
 ## Context 
 A Muesli distribution company has approached you to help them understand their delivery process. They want to develop KPIs to help them keep track of the health of their business in order to improve the service they offer their customers.
 
-**<font color="yellow">The warehouse manager</font>** described the workflow as follows:
+**The warehouse manager** described the workflow as follows:
 <ol>  
 
 
@@ -25,16 +25,16 @@ Order received (Day 1) → Order processed in warehouse and made ready to ship (
 
 Transportation is handled by a third-party logistics company.
 
-The Muesli company has provided a list of their transactions over the past few years. They claim to have complete data on the **Order Date** and the On **Truck Scan Date**, but have limited visibility of what happens in between or after. <font color="pink">Occasionally</font>, they have sent <font color="pink">interns</font> into the warehouse to record the **Ready to Ship Date** for as many orders as possible. According to the warehouse manager, they have not significantly changed their processes in the past year, so they believe this data should be a good estimate.
+The Muesli company has provided a list of their transactions over the past few years. They claim to have complete data on the **Order Date** and the On **Truck Scan Date**, but have limited visibility of what happens in between or after. Occasionally, they have sent interns into the warehouse to record the **Ready to Ship Date** for as many orders as possible. According to the warehouse manager, they have not significantly changed their processes in the past year, so they believe this data should be a good estimate.
 
 Customers can send orders every day, but the warehouse only operates from Monday to Friday. Therefore, any orders received on weekends are processed on Monday.
 
 Trucks leave the warehouse on Mondays, Wednesdays, and Fridays. Orders are shipped the day after they are ready for shipping (or two days later if there is no truck). Customers can pay for Express Processing, which ensures that orders leave on the truck the same day they are ready for shipping.
 </ol>
 
-**<font color="yellow">The logistics company</font>** reports:
+**The logistics company** reports:
 <ol>  
-They have an average delivery time of 3 days to all locations. They transport goods on weekends but only deliver to customers from their local distribution centers on weekdays. The Muesli company has provided <font color="pink">some data</font> on exact delivery dates for a number of shipments, gathered via <font color="pink">marketing promotions</font> where customers scanned a QR code on the package to register for a prize. (We assume customers always scanned the code on the day of arrival → <b>Arrival Scan Date</b> ).
+They have an average delivery time of 3 days to all locations. They transport goods on weekends but only deliver to customers from their local distribution centers on weekdays. The Muesli company has provided some data on exact delivery dates for a number of shipments, gathered via marketing promotions where customers scanned a QR code on the package to register for a prize. (We assume customers always scanned the code on the day of arrival → <b>Arrival Scan Date</b> ).
 </ol>
 
 ## Deliverable:
